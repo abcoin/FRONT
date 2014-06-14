@@ -1,0 +1,67 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="StockTraderRI" EntryPointType="StockTraderRI.App" RuntimeVersion="5.0.61118.0">
+  <Deployment.InBrowserSettings>
+    <InBrowserSettings>
+      <InBrowserSettings.SecuritySettings>
+        <SecuritySettings ElevatedPermissions="NotRequired" />
+      </InBrowserSettings.SecuritySettings>
+    </InBrowserSettings>
+  </Deployment.InBrowserSettings>
+  <Deployment.OutOfBrowserSettings>
+    <OutOfBrowserSettings ShortName="MultiAsset Wallet" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
+      <OutOfBrowserSettings.Blurb>StockTraderRI.Silverlight Application on your desktop; at home, at work or on the go.</OutOfBrowserSettings.Blurb>
+      <OutOfBrowserSettings.WindowSettings>
+        <WindowSettings Title="MultiAsset Wallet" />
+      </OutOfBrowserSettings.WindowSettings>
+      <OutOfBrowserSettings.Icons />
+    </OutOfBrowserSettings>
+  </Deployment.OutOfBrowserSettings>
+  <Deployment.Parts>
+    <AssemblyPart x:Name="StockTraderRI" Source="StockTraderRI.dll" />
+    <AssemblyPart x:Name="ConcurrentHashtable_Silverlight" Source="ConcurrentHashtable_Silverlight.dll" />
+    <AssemblyPart x:Name="DevExpress.Data.v13.2" Source="DevExpress.Data.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Printing.v13.2.Core" Source="DevExpress.Printing.v13.2.Core.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Core.v13.2" Source="DevExpress.Xpf.Core.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Docking.v13.2" Source="DevExpress.Xpf.Docking.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Grid.v13.2.Core" Source="DevExpress.Xpf.Grid.v13.2.Core.dll" />
+    <AssemblyPart x:Name="devexpress.xpf.grid.v13.2" Source="devexpress.xpf.grid.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Layout.v13.2.Core" Source="DevExpress.Xpf.Layout.v13.2.Core.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.LayoutControl.v13.2" Source="DevExpress.Xpf.LayoutControl.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Mvvm.v13.2" Source="DevExpress.Xpf.Mvvm.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.NavBar.v13.2" Source="DevExpress.Xpf.NavBar.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Printing.v13.2" Source="DevExpress.Xpf.Printing.v13.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Ribbon.v13.2" Source="DevExpress.Xpf.Ribbon.v13.2.dll" />
+    <AssemblyPart x:Name="FloatableWindow" Source="FloatableWindow.dll" />
+    <AssemblyPart x:Name="Microsoft.Expression.Interactions" Source="Microsoft.Expression.Interactions.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Prism" Source="Microsoft.Practices.Prism.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Prism.MefExtensions" Source="Microsoft.Practices.Prism.MefExtensions.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Unity.Silverlight" Source="Microsoft.Practices.Unity.Silverlight.dll" />
+    <AssemblyPart x:Name="NLog" Source="NLog.dll" />
+    <AssemblyPart x:Name="ServiceConsumer" Source="ServiceConsumer.dll" />
+    <AssemblyPart x:Name="Silverlight4.OOB.Installer.UIWrapper" Source="Silverlight4.OOB.Installer.UIWrapper.dll" />
+    <AssemblyPart x:Name="StockTraderRI.Infrastructure" Source="StockTraderRI.Infrastructure.dll" />
+    <AssemblyPart x:Name="StockTraderRI.Modules.Futures" Source="StockTraderRI.Modules.Futures.dll" />
+    <AssemblyPart x:Name="StockTraderRI.Modules.Market" Source="StockTraderRI.Modules.Market.dll" />
+    <AssemblyPart x:Name="StockTraderRI.Modules.News" Source="StockTraderRI.Modules.News.dll" />
+    <AssemblyPart x:Name="StockTraderRI.Modules.Position" Source="StockTraderRI.Modules.Position.dll" />
+    <AssemblyPart x:Name="StockTraderRI.Modules.Trade" Source="StockTraderRI.Modules.Trade.dll" />
+    <AssemblyPart x:Name="StockTraderRI.Modules.Watch" Source="StockTraderRI.Modules.Watch.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.Composition" Source="System.ComponentModel.Composition.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data" Source="System.Windows.Controls.Data.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+    <AssemblyPart x:Name="system.windows.controls.input.toolkit" Source="system.windows.controls.input.toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Toolkit" Source="System.Windows.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+    <AssemblyPart x:Name="SilverlightClientLibrary" Source="SilverlightClientLibrary.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json.Silverlight" Source="Newtonsoft.Json.Silverlight.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.ServiceLocation" Source="Microsoft.Practices.ServiceLocation.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
+    <AssemblyPart x:Name="System.Data.Services.Client" Source="System.Data.Services.Client.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+    <AssemblyPart x:Name="System.Xml.XPath" Source="System.Xml.XPath.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data.Input" Source="System.Windows.Controls.Data.Input.dll" />
+    <AssemblyPart x:Name="System.Windows.Data" Source="System.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.Composition.Initialization" Source="System.ComponentModel.Composition.Initialization.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Toolkit.Internals" Source="System.Windows.Controls.Toolkit.Internals.dll" />
+  </Deployment.Parts>
+</Deployment>
