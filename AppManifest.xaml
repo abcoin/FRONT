@@ -7,10 +7,10 @@
     </InBrowserSettings>
   </Deployment.InBrowserSettings>
   <Deployment.OutOfBrowserSettings>
-    <OutOfBrowserSettings ShortName="MultiAsset Wallet" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
+    <OutOfBrowserSettings ShortName="Front" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
       <OutOfBrowserSettings.Blurb>StockTraderRI.Silverlight Application on your desktop; at home, at work or on the go.</OutOfBrowserSettings.Blurb>
       <OutOfBrowserSettings.WindowSettings>
-        <WindowSettings Title="MultiAsset Wallet" />
+        <WindowSettings Title="FRONT" />
       </OutOfBrowserSettings.WindowSettings>
       <OutOfBrowserSettings.Icons />
     </OutOfBrowserSettings>
